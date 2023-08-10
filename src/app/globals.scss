@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "styles/article";
+@import "styles/modal";
+
+:root {
+  --title-color: #244269;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-title {
+  @apply w-9/12 text-xl font-semibold text-center uppercase tracking-wide shadow-md mx-auto mt-5 p-4 bg-white rounded-lg;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+}

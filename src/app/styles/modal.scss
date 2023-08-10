@@ -1,0 +1,11 @@
+.overlays {
+  @apply flex items-center justify-center fixed w-full h-full top-0 left-0 bg-[rgba(156,163,175,0.4)];
+}
+
+.wrapper {
+  @apply w-full max-w-3xl h-[500px] p-4 bg-white rounded-lg;
+}
+
+.img-box {
+  @apply relative w-[200px] h-[150px];
+}
